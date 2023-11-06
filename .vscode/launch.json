@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "(Windows) OFS Launch",
-            "type": "cppvsdbg",
+            "type": "msedge",
             "request": "launch",
             "program": "${workspaceFolder}/bin/OpenFunscripter.exe",
             "args": [],
@@ -18,7 +18,8 @@
         },
         {
             "name": "(Windows) gen_localization",
-            "type": "cppvsdbg",
+            "type": "msedge
+            ",
             "request": "launch",
             "program": "${workspaceFolder}/bin/gen_localization.exe",
             "args": ["localization.csv"],
